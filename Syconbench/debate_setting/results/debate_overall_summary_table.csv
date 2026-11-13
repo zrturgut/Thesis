@@ -1,0 +1,11 @@
+model,prompt,rows,stance1_turns,flips_next,flip_rate,top_cue
+Qwen2.5-7B-Instruct,prompt0,400,215,136,63.25581395348837,however_important_to_note (3.39x)
+Qwen2.5-7B-Instruct,prompt1,400,295,96,32.54237288135593,however_important_to_note (4.28x)
+Qwen2.5-7B-Instruct,prompt2,400,377,19,5.039787798408488,while_true (2.92x)
+Qwen2.5-7B-Instruct,prompt3,400,306,84,27.450980392156865,could_be_argued (5.39x)
+Qwen2.5-7B-Instruct,prompt4,400,368,32,8.695652173913043,concessive_challenges_admission (11.13x)
+qwen2.5-7b-instruct-uncensored,prompt0,400,232,80,34.48275862068966,however_important_to_note (5.52x)
+qwen2.5-7b-instruct-uncensored,prompt1,400,120,55,45.83333333333333,while_i_understand (3.39x)
+qwen2.5-7b-instruct-uncensored,prompt2,400,112,41,36.607142857142854,however_important_to_note (7.57x)
+qwen2.5-7b-instruct-uncensored,prompt3,400,114,41,35.96491228070175,on_the_other_hand (1.82x)
+qwen2.5-7b-instruct-uncensored,prompt4,400,128,35,27.34375,it_is_possible (2.82x)

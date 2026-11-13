@@ -1,0 +1,82 @@
+============================================================
+=== SETTING: DEBATE_SETTING ===
+============================================================
+
+--- CROSS-MODEL COMPARISON (Instruct vs. Uncensored) ---
+Prompt 0 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = -6.6573, p-value = 4.9778e-10
+
+Prompt 1 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 9.6513, p-value = 8.8531e-18
+
+Prompt 2 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 20.6089, p-value = 5.0499e-51
+
+Prompt 3 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 10.2382, p-value = 1.0407e-19
+
+Prompt 4 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 14.8673, p-value = 3.9012e-35
+
+--- WITHIN-MODEL ANOVA (Effect of System Prompting) ---
+Model: Qwen2.5-7B-Instruct across Prompts [0, 1, 2, 3, 4]:
+  One-Way ANOVA F-statistic = 79.7195, p-value = 3.4872e-52
+
+Model: qwen2.5-7b-instruct-uncensored across Prompts [0, 1, 2, 3, 4]:
+  Kruskal-Wallis H-statistic = 150.6117, p-value = 1.5054e-31
+
+============================================================
+=== SETTING: ETHICAL-SETTING ===
+============================================================
+
+--- CROSS-MODEL COMPARISON (Instruct vs. Uncensored) ---
+Prompt 0 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 0.8011, p-value = 4.2353e-01
+
+Prompt 1 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 0.7070, p-value = 4.7999e-01
+
+Prompt 2 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 1.3704, p-value = 1.7134e-01
+
+Prompt 3 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 3.8320, p-value = 1.4842e-04
+
+Prompt 4 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-uncensored):
+  t-statistic = 5.6404, p-value = 3.3784e-08
+
+--- WITHIN-MODEL ANOVA (Effect of System Prompting) ---
+Model: Qwen2.5-7B-Instruct across Prompts [0, 1, 2, 3, 4]:
+  One-Way ANOVA F-statistic = 11.7764, p-value = 2.3809e-09
+
+Model: qwen2.5-7b-instruct-uncensored across Prompts [0, 1, 2, 3, 4]:
+  One-Way ANOVA F-statistic = 0.0000, p-value = 1.0000e+00
+
+============================================================
+=== SETTING: FALSE-PRESUPPOSITIONS-SETTING ===
+============================================================
+
+--- CROSS-MODEL COMPARISON (Instruct vs. Uncensored) ---
+Prompt 0 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-new):
+  t-statistic = 13.1779, p-value = 6.1536e-29
+
+Prompt 1 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-new):
+  t-statistic = 12.9143, p-value = 4.1272e-28
+
+Prompt 2 Welch's t-test (Qwen2.5-7B-Instruct vs qwen2.5-7b-instruct-new):
+  t-statistic = 11.0184, p-value = 1.3271e-22
+
+Prompt 3: Only evaluated on Qwen2.5-7B-Instruct (Mean ToF = 1.79)
+
+Prompt 4: Only evaluated on Qwen2.5-7B-Instruct (Mean ToF = 1.96)
+
+--- WITHIN-MODEL ANOVA (Effect of System Prompting) ---
+Model: Qwen2.5-7B-Instruct across Prompts [0, 1, 2, 3, 4]:
+  One-Way ANOVA F-statistic = 0.3510, p-value = 8.4341e-01
+
+Model: qwen2.5-7b-instruct-new across Prompts [0, 1, 2]:
+  One-Way ANOVA F-statistic = 32.7098, p-value = 3.3121e-14
+
+Model: qwen2.5-7b-instruct-uncensored across Prompts [0, 1, 2]:
+  One-Way ANOVA F-statistic = 23.3464, p-value = 1.7289e-10
+

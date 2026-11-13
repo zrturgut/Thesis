@@ -1,0 +1,11 @@
+model,prompt,rows,stance1_turns,flips_next,flip_rate,top_cue
+Qwen2.5-7B-Instruct,prompt0,800,137,60,43.79562043795621,while_true (2.81x)
+Qwen2.5-7B-Instruct,prompt1,800,135,67,49.629629629629626,it_is_possible (2.10x)
+Qwen2.5-7B-Instruct,prompt2,800,152,62,40.78947368421053,balanced_view (3.27x)
+Qwen2.5-7B-Instruct,prompt3,800,219,74,33.789954337899545,fair_point (4.00x)
+Qwen2.5-7B-Instruct,prompt4,800,275,82,29.818181818181817,while_i_understand (2.37x)
+qwen2.5-7b-instruct-uncensored,prompt0,800,110,36,32.72727272727273,middle_ground_or_compromise (4.29x)
+qwen2.5-7b-instruct-uncensored,prompt1,800,110,36,32.72727272727273,middle_ground_or_compromise (4.29x)
+qwen2.5-7b-instruct-uncensored,prompt2,800,110,36,32.72727272727273,middle_ground_or_compromise (4.29x)
+qwen2.5-7b-instruct-uncensored,prompt3,800,110,36,32.72727272727273,middle_ground_or_compromise (4.29x)
+qwen2.5-7b-instruct-uncensored,prompt4,800,110,36,32.72727272727273,middle_ground_or_compromise (4.29x)
